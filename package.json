@@ -23,7 +23,12 @@
   },
   "homepage": "https://github.com/sabrehagen/delete-aws-bucket#readme",
   "dependencies": {
-    "aws-sdk": "^2.132.0",
     "empty-aws-bucket": "github:mvayngrib/empty-aws-bucket"
+  },
+  "peerDependencies": {
+    "aws-sdk": "^2.132.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.132.0"
   }
 }
